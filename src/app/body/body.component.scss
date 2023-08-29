@@ -1,0 +1,31 @@
+  .contact {
+    display: flex;
+    justify-content: space-evenly;
+
+    &__Div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: round($number: 0);
+    }
+  }
+
+  .center {
+    display: flex;
+    align-items: center;
+  }
+
+  .redes {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .padding {
+    padding: 10px;
+  }
+
+  .marging {
+    margin: 30px 0;
+  }

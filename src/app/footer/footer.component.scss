@@ -1,0 +1,46 @@
+.section__educacion {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+  }
+  
+  .progress {
+    height: 15px;
+    width: 300px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background-color: #e6f3fa;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    background: #a3a3a3;
+    display: flex;
+    align-items: center;
+    transition: width 0.25s;
+    border-radius: 5px;
+  }
+  
+  .progress-bar-text {
+    margin-left: 10px;
+    font-weight: bold;
+    color: #cce7f5;
+  }
+  
+  .habilidades {
+    font-size: 15px;
+  }
+  
+  .marginButton {
+    margin-bottom: 1px;
+  }
+  
+  .padding {
+      padding: 10px;
+  }
+  
+  .marging {
+    margin: 30px 0;
+  }
